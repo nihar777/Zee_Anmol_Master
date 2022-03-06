@@ -1,4 +1,4 @@
-package com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.Ads;
+package com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.Ads;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -35,7 +35,7 @@ import com.google.android.gms.ads.nativead.MediaView;
 import com.google.android.gms.ads.nativead.NativeAd;
 import com.google.android.gms.ads.nativead.NativeAdOptions;
 import com.google.android.gms.ads.nativead.NativeAdView;
-import com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.R;
+import com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.R;
 
 import java.util.Map;
 

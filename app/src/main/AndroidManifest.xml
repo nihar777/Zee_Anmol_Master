@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol">
+    package="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -15,55 +15,43 @@
         android:supportsRtl="true"
         android:theme="@style/SplashTheme">
         <activity
-            android:name="com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.ZeeAnmolActivity"
+            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.ZeeAnmolActivity"
             android:exported="false" />
         <activity
-            android:name="com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.anyGoodActivity"
+            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.anyGoodActivity"
             android:exported="false" />
         <activity
-            android:name="com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.isZeeAnmolActivity"
+            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.isZeeAnmolActivity"
             android:exported="false" />
         <activity
-            android:name="com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.howDoActivity"
+            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.howDoActivity"
             android:exported="false" />
         <activity
-            android:name="com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.WhyIsActivity"
+            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.WhyIsActivity"
             android:exported="false" />
         <activity
-            android:name="com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.HowMuchActivity"
+            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.HowMuchActivity"
             android:exported="false" />
         <activity
-            android:name="com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.howCanActivity"
+            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.howCanActivity"
             android:exported="false" />
         <activity
-            android:name="com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.piyaAlbelaActivity"
+            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.piyaAlbelaActivity"
             android:exported="false" />
         <activity
-            android:name="com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.tujhseHaiActivity"
+            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.subscriptionPage"
             android:exported="false" />
         <activity
-            android:name="com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.ishqSubhanActivity"
+            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.FourthActivity"
             android:exported="false" />
         <activity
-            android:name="com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.manmohiniActivity"
+            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.ThirdActivity"
             android:exported="false" />
         <activity
-            android:name="com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.wohApnaActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.subscriptionPage"
-            android:exported="false" />
-        <activity
-            android:name="com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.FourthActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.ThirdActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.MainActivity"
+            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.MainActivity"
             android:exported="true" />
         <activity
-            android:name="com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.SplashScreenActivity"
+            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.SplashScreenActivity"
             android:exported="true"
             android:theme="@style/SplashTheme">
             <intent-filter>
@@ -73,7 +61,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.HomeActivity"
+            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.HomeActivity"
             android:exported="false" />
 
         <meta-data

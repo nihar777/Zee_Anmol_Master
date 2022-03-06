@@ -5,10 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.MainActivity">
-
-
-
+    tools:context="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.MainActivity">
 
     <LinearLayout
         android:id="@+id/header"
@@ -153,6 +150,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="5dp"
                     android:layout_weight="1"
+                    android:id="@+id/q1"
                     android:elevation="5dp"
                     app:cardCornerRadius="10dp">
 
@@ -172,6 +170,7 @@
                     android:layout_marginEnd="5dp"
                     android:layout_weight="1"
                     android:elevation="5dp"
+                    android:id="@+id/q2"
                     app:cardCornerRadius="10dp">
 
                     <ImageView
@@ -190,6 +189,7 @@
                     android:layout_marginStart="5dp"
                     android:layout_weight="1"
                     android:elevation="5dp"
+                    android:id="@+id/q3"
                     app:cardCornerRadius="10dp">
 
                     <ImageView
@@ -216,6 +216,7 @@
                     android:layout_marginEnd="5dp"
                     android:layout_weight="1"
                     android:elevation="5dp"
+                    android:id="@+id/q4"
                     app:cardCornerRadius="10dp">
 
                     <ImageView
@@ -234,6 +235,7 @@
                     android:layout_marginEnd="5dp"
                     android:layout_weight="1"
                     android:elevation="5dp"
+                    android:id="@+id/q5"
                     app:cardCornerRadius="10dp">
 
                     <ImageView
@@ -250,6 +252,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
                     android:layout_weight="1"
+                    android:id="@+id/q6"
                     android:elevation="5dp"
                     app:cardCornerRadius="10dp">
 
@@ -277,6 +280,7 @@
                     android:layout_marginEnd="5dp"
                     android:layout_weight="1"
                     android:elevation="5dp"
+                    android:id="@+id/q7"
                     app:cardCornerRadius="10dp">
 
                     <ImageView
@@ -295,6 +299,7 @@
                     android:layout_marginEnd="5dp"
                     android:layout_weight="1"
                     android:elevation="5dp"
+                    android:id="@+id/q8"
                     app:cardCornerRadius="10dp">
 
                     <ImageView
@@ -312,6 +317,7 @@
                     android:layout_marginStart="5dp"
                     android:layout_weight="1"
                     android:elevation="5dp"
+                    android:id="@+id/q9"
                     app:cardCornerRadius="10dp">
 
                     <ImageView

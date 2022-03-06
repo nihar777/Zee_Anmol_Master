@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
 
-    tools:context="com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.subscriptionPage">
+    tools:context="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.subscriptionPage">
     <RelativeLayout
         android:id="@+id/header"
         android:layout_width="match_parent"

@@ -1,4 +1,4 @@
-package com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol;
+package com.serialslivetvanmol.zeeanmolhd2022.zeeanmol;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.browser.customtabs.CustomTabsIntent;
@@ -15,9 +15,9 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.Ads.Ad_Constant;
-import com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.Ads.AdmobAdsTemplete;
-import com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.databinding.ActivityMainBinding;
+import com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.Ads.Ad_Constant;
+import com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.Ads.AdmobAdsTemplete;
+import com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.databinding.ActivityMainBinding;
 
 public class HomeActivity extends AppCompatActivity{
 

@@ -1,4 +1,4 @@
-package com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol;
+package com.serialslivetvanmol.zeeanmolhd2022.zeeanmol;
 
 import android.annotation.SuppressLint;
 import android.app.Dialog;
@@ -15,9 +15,10 @@ import android.widget.LinearLayout;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.browser.customtabs.CustomTabsIntent;
+import androidx.cardview.widget.CardView;
 
-import com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.Ads.Ad_Constant;
-import com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.Ads.AdmobAdsTemplete;
+import com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.Ads.Ad_Constant;
+import com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.Ads.AdmobAdsTemplete;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -29,9 +30,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private LinearLayout btn_share;
     private LinearLayout btn_rate;
     private LinearLayout btn_privacy;
-//
-//FirebaseDatabase database =FirebaseDatabase.getInstance();
-//DatabaseReference reference=database.getReference().child("AdsId");
+    CardView q1,q2,q3,q4,q5,q6,q7,q8,q9;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,17 +43,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         FrameLayout frameLayout = findViewById(R.id.native_add);
         AdmobAdsTemplete.loadNativeAds(this, frameLayout);
-//        MediationTestSuite.launch(MainActivity.this);
 
 
         this.btn_start = (LinearLayout) findViewById(R.id.btn_start);
         this.btn_share = (LinearLayout) findViewById(R.id.btn_share);
         this.btn_rate = (LinearLayout) findViewById(R.id.btn_rate);
         this.btn_privacy = (LinearLayout) findViewById(R.id.btn_privacy);
-//        Button button = (Button) findViewById(R.id.btn_start);
-//        Button share = (Button) findViewById(R.id.btn_share);
-//        Button rate = (Button) findViewById(R.id.btn_rate);
-//        Button privacy = (Button) findViewById(R.id.btn_privacy);
         btn_start.setOnClickListener(this);
 
         btn_privacy.setOnClickListener(new View.OnClickListener() {
@@ -69,26 +64,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 build.intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 build.launchUrl(getApplicationContext(), Uri.parse("https://tuhinsapps77.blogspot.com/2022/02/privacy-policy-built-zee-anmol-tv.html"));
 
-
-
-//              reference.push();
-/*
-              reference.addValueEventListener(new ValueEventListener() {
-                  @Override
-                  public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-
-                      for (DataSnapshot dataSnapshot1 : dataSnapshot.getChildren()){
-                          Log.d("Firebase data==>", String.valueOf(dataSnapshot1));
-
-                      }
-                  }
-
-                  @Override
-                  public void onCancelled(@NonNull DatabaseError databaseError) {
-
-                  }
-              });
-*/
 
             }
         });
@@ -118,7 +93,46 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 i.setData(Uri.parse("market://details?id=" + getPackageName()));
                 startActivity(i);
             }
+
         });
+
+
+                q1 = (CardView) findViewById(R.id.q1);
+        q2 = (CardView) findViewById(R.id.q2);
+        q3 = (CardView) findViewById(R.id.q3);
+        q4 = (CardView) findViewById(R.id.q4);
+        q5 = (CardView) findViewById(R.id.q5);
+        q6 = (CardView) findViewById(R.id.q6);
+        q7 = (CardView) findViewById(R.id.q7);
+        q8 = (CardView) findViewById(R.id.q8);
+        q9 = (CardView) findViewById(R.id.q9);
+
+
+
+        if (Ad_Constant.qureka == true) {
+            q1.setVisibility(View.VISIBLE);
+            q2.setVisibility(View.VISIBLE);
+            q3.setVisibility(View.VISIBLE);
+            q4.setVisibility(View.VISIBLE);
+            q5.setVisibility(View.VISIBLE);
+            q6.setVisibility(View.VISIBLE);
+            q7.setVisibility(View.VISIBLE);
+            q8.setVisibility(View.VISIBLE);
+            q9.setVisibility(View.VISIBLE);
+
+        } else {
+            q1.setVisibility(View.GONE);
+            q2.setVisibility(View.GONE);
+            q3.setVisibility(View.GONE);
+            q4.setVisibility(View.GONE);
+            q5.setVisibility(View.GONE);
+            q6.setVisibility(View.GONE);
+            q7.setVisibility(View.GONE);
+            q8.setVisibility(View.GONE);
+            q9.setVisibility(View.GONE);
+
+        }
+
 
 //        exitdialog();
 //        thankdialog();
@@ -200,8 +214,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @SuppressLint("ResourceType")
     public void mgl(View view) {
-
-
         view.startAnimation(AnimationUtils.loadAnimation(getApplicationContext(), R.anim.button_push));
         CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder();
         builder.setToolbarColor(Color.parseColor(getString(R.color.colorPrimary))).setShowTitle(true);

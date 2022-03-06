@@ -1,8 +1,9 @@
-package com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol;
+package com.serialslivetvanmol.zeeanmolhd2022.zeeanmol;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.browser.customtabs.CustomTabsIntent;
+import androidx.cardview.widget.CardView;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -16,8 +17,8 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.Ads.Ad_Constant;
-import com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.Ads.AdmobAdsTemplete;
+import com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.Ads.Ad_Constant;
+import com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.Ads.AdmobAdsTemplete;
 
 
 public class ThirdActivity extends AppCompatActivity {
@@ -27,6 +28,8 @@ public class ThirdActivity extends AppCompatActivity {
     private ImageView imgBack;
     private LinearLayout btn_guid;
     private LinearLayout btn_suscription;
+
+    CardView q1,q2,q3,q4,q5,q6,q7,q8,q9;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,6 +72,45 @@ public class ThirdActivity extends AppCompatActivity {
                 AdmobAdsTemplete.interstitialAds(ThirdActivity.this,intent);
             }
         });
+
+        q1 = (CardView) findViewById(R.id.q1);
+        q2 = (CardView) findViewById(R.id.q2);
+        q3 = (CardView) findViewById(R.id.q3);
+        q4 = (CardView) findViewById(R.id.q4);
+        q5 = (CardView) findViewById(R.id.q5);
+        q6 = (CardView) findViewById(R.id.q6);
+        q7 = (CardView) findViewById(R.id.q7);
+        q8 = (CardView) findViewById(R.id.q8);
+        q9 = (CardView) findViewById(R.id.q9);
+
+
+
+        if (Ad_Constant.qureka == true) {
+            q1.setVisibility(View.VISIBLE);
+            q2.setVisibility(View.VISIBLE);
+            q3.setVisibility(View.VISIBLE);
+            q4.setVisibility(View.VISIBLE);
+            q5.setVisibility(View.VISIBLE);
+            q6.setVisibility(View.VISIBLE);
+            q7.setVisibility(View.VISIBLE);
+            q8.setVisibility(View.VISIBLE);
+            q9.setVisibility(View.VISIBLE);
+
+        } else {
+            q1.setVisibility(View.GONE);
+            q2.setVisibility(View.GONE);
+            q3.setVisibility(View.GONE);
+            q4.setVisibility(View.GONE);
+            q5.setVisibility(View.GONE);
+            q6.setVisibility(View.GONE);
+            q7.setVisibility(View.GONE);
+            q8.setVisibility(View.GONE);
+            q9.setVisibility(View.GONE);
+
+        }
+
+
+
     }
 
     public void onBackPressed() {
