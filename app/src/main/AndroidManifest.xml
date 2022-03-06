@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/SplashTheme">
+        <activity
+            android:name=".ZeeAnmolActivity"
+            android:exported="false" />
+        <activity
+            android:name=".anyGoodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".isZeeAnmolActivity"
+            android:exported="false" />
+        <activity
+            android:name=".howDoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WhyIsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HowMuchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".howCanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".piyaAlbelaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tujhseHaiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ishqSubhanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".manmohiniActivity"
+            android:exported="false" />
+        <activity
+            android:name=".wohApnaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".subscriptionPage"
+            android:exported="false" />
+        <activity
+            android:name=".FourthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThirdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9074700583184711~8115804336" />
+    </application>
+
+</manifest>

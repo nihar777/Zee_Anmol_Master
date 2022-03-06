@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <entry>
+        <key>isActive
+        </key>
+        <value>false
+        </value>
+    </entry>
+    <entry>
+        <key>Admob_native
+        </key>
+        <value/>
+    </entry>
+    <entry>
+        <key>Admob_Interstitial
+        </key>
+        <value/>
+    </entry>
+    <entry>
+        <key>Admob_Banner
+        </key>
+        <value/>
+    </entry>
+    <entry>
+        <key>Admob_OpenAd
+        </key>
+        <value/>
+    </entry>
+    <entry>
+        <key>is_screen_show
+        </key>
+        <value/>
+    </entry>
+</defaultsMap>

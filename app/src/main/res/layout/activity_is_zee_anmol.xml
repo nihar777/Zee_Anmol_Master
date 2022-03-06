@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".isZeeAnmolActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ZEEPLEX is a premimum movie-on-demand service where users can watch blockbuster movies by renting them on the other hand ZeeAnmol is a streaming platform where users will find movies web series tv shows across various languages Yes! ZEEPLEX and ZeeAnmol premium are different from each other"></TextView>
+
+</RelativeLayout>

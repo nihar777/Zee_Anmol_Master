@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".howCanActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To enjoy an ad-free experience and more, you will need to purchase a subscription. Click here to view our Premium Subscription Plans. Our Subscription offerings start as low as Rs. 1 a day!"></TextView>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "258349250331",
+    "project_id": "zeeanmol-62350",
+    "storage_bucket": "zeeanmol-62350.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258349250331:android:9b597a8c274794864d45be",
+        "android_client_info": {
+          "package_name": "com.serialslivetvanmol.zeeanmolhd2022.zeeanmol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "258349250331-is4umcl3knf6mjupqohsj08ust05c2vf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_42SXa8XRt5SPGtjbZfR-dgoA-aVfh0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "258349250331-is4umcl3knf6mjupqohsj08ust05c2vf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
