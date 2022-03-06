@@ -133,13 +133,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
 
-        exitdialog();
-        thankdialog();
+//        exitdialog();
+//        thankdialog();
 
 
     }
 
 
+/*
     @SuppressLint("ResourceType")
     public void exitdialog() {
         Dialog dialog2 = new Dialog(this);
@@ -169,8 +170,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
     }
+*/
 
 
+/*
     @SuppressLint("ResourceType")
     public void thankdialog() {
         Dialog dialog2 = new Dialog(this);
@@ -185,6 +188,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         });
     }
+*/
 
     @Override
     public void onClick(View v) {

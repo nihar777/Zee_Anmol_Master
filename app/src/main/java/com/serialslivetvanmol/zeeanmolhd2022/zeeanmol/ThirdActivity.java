@@ -21,18 +21,21 @@ import com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.Ads.Ad_Constant;
 import com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.Ads.AdmobAdsTemplete;
 
 
-public class ThirdActivity extends AppCompatActivity implements View.OnClickListener {
+public class ThirdActivity extends AppCompatActivity {
 
     public static ZeeAnmolProgressView dialogView;
     private static int loader_color = Color.parseColor("#D81B60");
     private ImageView imgBack;
     private LinearLayout btn_guid;
-    private LinearLayout btn_suscription,linearLayout;
+    private LinearLayout btn_suscription;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_third);
+        btn_guid = (LinearLayout) findViewById(R.id.btn_guidelines);
+        btn_suscription = (LinearLayout) findViewById(R.id.btn_subscription);
+
 
         LinearLayout linearLayout = findViewById(R.id.banner_ad);
         AdmobAdsTemplete.loadBanner(this, linearLayout);
@@ -48,18 +51,18 @@ public class ThirdActivity extends AppCompatActivity implements View.OnClickList
                 ThirdActivity.this.onBackPressed();
             }
         });
-        linearLayout = (LinearLayout) findViewById(R.id.btn_guidelines);
-        this.btn_guid = linearLayout;
-        linearLayout.setOnClickListener(new View.OnClickListener() {
+
+
+        btn_guid.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
 
                 Intent intent = new Intent(getApplicationContext(),FourthActivity.class);
                 AdmobAdsTemplete.interstitialAds(ThirdActivity.this,intent);
             }
         });
-        LinearLayout linearLayout2 = (LinearLayout) findViewById(R.id.btn_subscription);
-        this.btn_suscription = linearLayout2;
-        linearLayout2.setOnClickListener(new View.OnClickListener() {
+
+
+        btn_suscription.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 ZeeAnmolConstant.position = 9;
 
@@ -75,11 +78,6 @@ public class ThirdActivity extends AppCompatActivity implements View.OnClickList
         ThirdActivity.this.finish();
     }
 
-    @Override
-    public void onClick(View v) {
-        Intent intent = new Intent(ThirdActivity.this, FourthActivity.class);
-        startActivity(intent);
-    }
 
     @SuppressLint("ResourceType")
     @RequiresApi(api = Build.VERSION_CODES.M)

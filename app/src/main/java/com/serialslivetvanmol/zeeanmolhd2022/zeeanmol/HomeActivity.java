@@ -3,6 +3,7 @@ package com.serialslivetvanmol.zeeanmolhd2022.zeeanmol;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.browser.customtabs.CustomTabsIntent;
+import androidx.cardview.widget.CardView;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -25,13 +26,14 @@ import com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.Ads.Ad_Constant;
 import com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.Ads.AdmobAdsTemplete;
 import com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.databinding.ActivityMainBinding;
 
-public class HomeActivity extends AppCompatActivity implements View.OnClickListener {
+public class HomeActivity extends AppCompatActivity{
 
     public static ZeeAnmolProgressView dialogView;
     private static int loader_color = Color.parseColor("#D81B60");
     private ImageView imgBack;
     private LinearLayout btn_all_live_tv_show;
-    private LinearLayout btnLAtestGame,Btn_PlaQuiz;
+    private LinearLayout btn_latest_game,Btn_PlaQuiz;
+    CardView q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,17 +46,66 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         FrameLayout frameLayout = findViewById(R.id.native_add);
         AdmobAdsTemplete.loadNativeAds(this, frameLayout);
 
+        btn_all_live_tv_show = (LinearLayout) findViewById(R.id.btn_all_live_tv_show);
+        imgBack = (ImageView) findViewById(R.id.imgBack);
+        Btn_PlaQuiz = (LinearLayout) findViewById(R.id.btn_play_quiz);
+        btn_latest_game = (LinearLayout) findViewById(R.id.btn_latest_game);
+
+        q1 = (CardView) findViewById(R.id.q1);
+        q2 = (CardView) findViewById(R.id.q2);
+        q3 = (CardView) findViewById(R.id.q3);
+        q4 = (CardView) findViewById(R.id.q4);
+        q5 = (CardView) findViewById(R.id.q5);
+        q6 = (CardView) findViewById(R.id.q6);
+        q7 = (CardView) findViewById(R.id.q7);
+        q8 = (CardView) findViewById(R.id.q8);
+        q9 = (CardView) findViewById(R.id.q9);
+        q10 = (CardView) findViewById(R.id.q10);
+        q11 = (CardView) findViewById(R.id.q11);
+        q12 = (CardView) findViewById(R.id.q12);
+
+
+        if (Ad_Constant.qureka == true) {
+            q1.setVisibility(View.VISIBLE);
+            q2.setVisibility(View.VISIBLE);
+            q3.setVisibility(View.VISIBLE);
+            q4.setVisibility(View.VISIBLE);
+            q5.setVisibility(View.VISIBLE);
+            q6.setVisibility(View.VISIBLE);
+            q7.setVisibility(View.VISIBLE);
+            q8.setVisibility(View.VISIBLE);
+            q9.setVisibility(View.VISIBLE);
+            q10.setVisibility(View.VISIBLE);
+            q11.setVisibility(View.VISIBLE);
+            q12.setVisibility(View.VISIBLE);
+        } else {
+            q1.setVisibility(View.GONE);
+            q2.setVisibility(View.GONE);
+            q3.setVisibility(View.GONE);
+            q4.setVisibility(View.GONE);
+            q5.setVisibility(View.GONE);
+            q6.setVisibility(View.GONE);
+            q7.setVisibility(View.GONE);
+            q8.setVisibility(View.GONE);
+            q9.setVisibility(View.GONE);
+            q10.setVisibility(View.GONE);
+            q11.setVisibility(View.GONE);
+            q12.setVisibility(View.GONE);
+        }
+
+
+
+
+
         dialogView = new ZeeAnmolProgressView(this, loader_color);
-        ImageView imageView = (ImageView) findViewById(R.id.imgBack);
-        this.imgBack = imageView;
-        imageView.setOnClickListener(new View.OnClickListener() {
+        imgBack.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 HomeActivity.this.onBackPressed();
             }
         });
-        linearLayout = (LinearLayout) findViewById(R.id.btn_play_quiz);
 
-        linearLayout.setOnClickListener(new View.OnClickListener() {
+
+        Btn_PlaQuiz.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             public void onClick(View view) {
                 view.startAnimation(AnimationUtils.loadAnimation(getApplicationContext(), R.anim.button_push));
@@ -66,9 +117,9 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
                 build.launchUrl(getApplicationContext(), Uri.parse(Ad_Constant.qureka_url));
             }
         });
-        LinearLayout linearLayout2 = (LinearLayout) findViewById(R.id.btn_latest_game);
-        this.btnLAtestGame = linearLayout2;
-        linearLayout2.setOnClickListener(new View.OnClickListener() {
+
+
+        btn_latest_game.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("ResourceType")
             public void onClick(View view) {
 
@@ -82,14 +133,14 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
             }
         });
-        LinearLayout linearLayout3 = (LinearLayout) findViewById(R.id.btn_all_live_tv_show);
-        this.btn_all_live_tv_show = linearLayout3;
-        linearLayout3.setOnClickListener(new View.OnClickListener() {
+
+
+        btn_all_live_tv_show.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
 //                AxieGuide_SecondActivity.this.startActivity(new Intent(AxieGuide_SecondActivity.this, AxieGuideActivity.class));
 
                 Intent intent = new Intent(getApplicationContext(),ThirdActivity.class);
-                AdmobAdsTemplete.interstitialAds(HomeActivity.this,intent);
+               startActivity(intent);
             }
         });
 
@@ -97,14 +148,6 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
-    @Override
-    public void onClick(View v) {
-        Intent intent = new Intent(HomeActivity.this, ThirdActivity.class);
-        startActivity(intent);
-        AdmobAdsTemplete.interstitialAds(HomeActivity.this,intent);
-
-
-    }
 
     @SuppressLint("ResourceType")
     public void qureka1(View view) {
