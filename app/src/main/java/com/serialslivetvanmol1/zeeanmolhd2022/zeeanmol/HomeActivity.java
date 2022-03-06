@@ -1,6 +1,5 @@
-package com.serialslivetvanmol.zeeanmolhd2022.zeeanmol;
+package com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.browser.customtabs.CustomTabsIntent;
 import androidx.cardview.widget.CardView;
@@ -12,19 +11,13 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.AnimationUtils;
-import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.LoadAdError;
-import com.google.android.gms.ads.interstitial.InterstitialAd;
-import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
-import com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.Ads.Ad_Constant;
-import com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.Ads.AdmobAdsTemplete;
-import com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.databinding.ActivityMainBinding;
+import com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.Ads.Ad_Constant;
+import com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.Ads.AdmobAdsTemplete;
+import com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.databinding.ActivityMainBinding;
 
 public class HomeActivity extends AppCompatActivity{
 

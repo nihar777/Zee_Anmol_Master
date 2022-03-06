@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.SplashScreenActivity">
+    tools:context="com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.SplashScreenActivity">
 
 
   <ImageView
@@ -19,7 +19,9 @@
   <ProgressBar
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-    android:id="@+id/progressbar"
-    android:layout_centerInParent="true"
+      android:id="@+id/progressbar"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="50dp"
     />
 </RelativeLayout>

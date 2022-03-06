@@ -1,4 +1,4 @@
-package com.serialslivetvanmol.zeeanmolhd2022.zeeanmol;
+package com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,14 +9,12 @@ import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
-import android.widget.Toast;
 
-import com.google.android.gms.ads.appopen.AppOpenAd;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings;
-import com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.Ads.Ad_Constant;
+import com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.Ads.Ad_Constant;
 
 
 public class SplashScreenActivity extends AppCompatActivity {

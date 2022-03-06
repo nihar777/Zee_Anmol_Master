@@ -1,40 +1,23 @@
-package com.serialslivetvanmol.zeeanmolhd2022.zeeanmol;
+package com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol;
 
 import android.annotation.SuppressLint;
 import android.app.Dialog;
-import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.animation.AnimationUtils;
+import android.widget.FrameLayout;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
-import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.browser.customtabs.CustomTabsIntent;
 
-import com.google.android.ads.mediationtestsuite.MediationTestSuite;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.LoadAdError;
-import com.google.android.gms.ads.MobileAds;
-import com.google.android.gms.ads.initialization.InitializationStatus;
-import com.google.android.gms.ads.initialization.OnInitializationCompleteListener;
-import com.google.android.gms.ads.interstitial.InterstitialAd;
-import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
-import com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.Ads.Ad_Constant;
-import com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.Ads.AdmobAdsTemplete;
+import com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.Ads.Ad_Constant;
+import com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.Ads.AdmobAdsTemplete;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -55,7 +38,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         AdmobAdsTemplete.interstitialAds(MainActivity.this, null);
 
+        LinearLayout linearLayout = findViewById(R.id.banner_ad);
+        AdmobAdsTemplete.loadBanner(this, linearLayout);
 
+        FrameLayout frameLayout = findViewById(R.id.native_add);
+        AdmobAdsTemplete.loadNativeAds(this, frameLayout);
 //        MediationTestSuite.launch(MainActivity.this);
 
 

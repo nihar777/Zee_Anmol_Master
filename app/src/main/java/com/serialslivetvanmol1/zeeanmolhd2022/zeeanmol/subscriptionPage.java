@@ -1,4 +1,4 @@
-package com.serialslivetvanmol.zeeanmolhd2022.zeeanmol;
+package com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.Ads.AdmobAdsTemplete;
+import com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.Ads.AdmobAdsTemplete;
 
 
 public class subscriptionPage extends AppCompatActivity {

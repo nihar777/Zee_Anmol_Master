@@ -1,4 +1,4 @@
-package com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.Ads;
+package com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.Ads;
 
 public class Ad_Constant {
     public static boolean flag = false;

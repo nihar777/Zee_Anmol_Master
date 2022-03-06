@@ -1,10 +1,10 @@
-package com.serialslivetvanmol.zeeanmolhd2022.zeeanmol;
+package com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol;
 
 import android.app.Dialog;
 import android.content.Context;
 import android.os.Bundle;
 
-import com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.R;
+import com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.R;
 
 
 public class ZeeAnmolProgressView extends Dialog {

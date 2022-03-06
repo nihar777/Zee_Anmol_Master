@@ -37,10 +37,15 @@
         <entry key="..\:/Users/Nihar/AndroidStudioProjects/ZeeAnmol/app/src/main/res/layout/zee_anmo_load.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Nihar/AndroidStudioProjects/ZeeAnmol/app/src/main/res/xml/network_security_config.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Nihar/AndroidStudioProjects/ZeeAnmol/app/src/main/res/xml/remote_config_defaults.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/RAVI/Zee_Anmol_Master/app/src/main/res/drawable/bg_gradient.xml" value="0.24166666666666667" />
+        <entry key="..\:/Users/RAVI/Zee_Anmol_Master/app/src/main/res/drawable/button_shape.xml" value="0.24166666666666667" />
         <entry key="..\:/Users/RAVI/Zee_Anmol_Master/app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="..\:/Users/RAVI/Zee_Anmol_Master/app/src/main/res/layout/activity_main.xml" value="0.19907407407407407" />
-        <entry key="..\:/Users/RAVI/Zee_Anmol_Master/app/src/main/res/layout/activity_splash_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/RAVI/Zee_Anmol_Master/app/src/main/res/layout/activity_splash_screen.xml" value="0.2" />
+        <entry key="..\:/Users/RAVI/Zee_Anmol_Master/app/src/main/res/layout/activity_subscription_page.xml" value="0.25" />
         <entry key="..\:/Users/RAVI/Zee_Anmol_Master/app/src/main/res/layout/activity_third.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/RAVI/Zee_Anmol_Master/app/src/main/res/layout/activity_woh_apna.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/RAVI/Zee_Anmol_Master/app/src/main/res/layout/activity_zee_anmol.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/RAVI/Zee_Anmol_Master/app/src/main/res/layout/axieguide_exit_dialog.xml" value="0.21161417322834647" />
       </map>
     </option>

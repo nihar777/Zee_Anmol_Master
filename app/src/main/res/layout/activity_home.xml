@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    tools:context="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.HomeActivity">
+    tools:context="com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol.HomeActivity">
 
 <!--    <FrameLayout-->
 <!--        android:id="@+id/native_add"-->

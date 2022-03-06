@@ -1,14 +1,16 @@
-package com.serialslivetvanmol.zeeanmolhd2022.zeeanmol;
+package com.serialslivetvanmol1.zeeanmolhd2022.zeeanmol;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class piyaAlbelaActivity extends AppCompatActivity {
+public class isZeeAnmolActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_piya_albela);
+        setContentView(R.layout.activity_is_zee_anmol);
+
+
     }
 }
