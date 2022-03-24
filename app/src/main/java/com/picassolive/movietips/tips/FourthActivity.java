@@ -1,4 +1,4 @@
-package com.serialslivetvanmol.zeeanmolhd2022.zeeanmol;
+package com.picassolive.movietips.tips;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
@@ -11,8 +11,8 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.Ads.Ad_Constant;
-import com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.Ads.AdmobAdsTemplete;
+import com.picassolive.movietips.tips.Ads.Ad_Constant;
+import com.picassolive.movietips.tips.Ads.AdmobAdsTemplete;
 
 public class FourthActivity extends AppCompatActivity {
 

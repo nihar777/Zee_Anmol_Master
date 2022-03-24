@@ -1,14 +1,14 @@
-package com.serialslivetvanmol.zeeanmolhd2022.zeeanmol;
+package com.picassolive.movietips.tips;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class howCanActivity extends AppCompatActivity {
+public class HowMuchActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_how_can);
+        setContentView(R.layout.activity_how_much);
     }
 }

@@ -1,4 +1,4 @@
-package com.serialslivetvanmol.zeeanmolhd2022.zeeanmol;
+package com.picassolive.movietips.tips;
 
 import androidx.appcompat.app.AppCompatActivity;
 

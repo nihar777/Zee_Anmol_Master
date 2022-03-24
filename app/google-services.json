@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "258349250331",
-    "project_id": "zeeanmol-62350",
-    "storage_bucket": "zeeanmol-62350.appspot.com"
+    "project_number": "1008816296905",
+    "project_id": "picassolivemovietvtips",
+    "storage_bucket": "picassolivemovietvtips.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:258349250331:android:9b597a8c274794864d45be",
+        "mobilesdk_app_id": "1:1008816296905:android:7df5bd3fb814ac097a8e18",
         "android_client_info": {
-          "package_name": "com.serialslivetvanmol.zeeanmolhd2022.zeeanmol"
+          "package_name": "com.picassolive.movietips.tips"
         }
       },
       "oauth_client": [
         {
-          "client_id": "258349250331-is4umcl3knf6mjupqohsj08ust05c2vf.apps.googleusercontent.com",
+          "client_id": "1008816296905-5jmvamnad1qr2jo7jgmttbsass1n3r2v.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC_42SXa8XRt5SPGtjbZfR-dgoA-aVfh0c"
+          "current_key": "AIzaSyDyRo2Rfi86c5bwrxseqSsp2L3r7YEkbiA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "258349250331-is4umcl3knf6mjupqohsj08ust05c2vf.apps.googleusercontent.com",
+              "client_id": "1008816296905-5jmvamnad1qr2jo7jgmttbsass1n3r2v.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

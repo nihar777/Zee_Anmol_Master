@@ -1,4 +1,4 @@
-package com.serialslivetvanmol.zeeanmolhd2022.zeeanmol;
+package com.picassolive.movietips.tips;
 
 import android.app.Dialog;
 import android.content.Context;

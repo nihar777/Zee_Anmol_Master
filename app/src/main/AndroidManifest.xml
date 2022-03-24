@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol">
+    package="com.picassolive.movietips.tips">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -15,43 +15,43 @@
         android:supportsRtl="true"
         android:theme="@style/SplashTheme">
         <activity
-            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.ZeeAnmolActivity"
+            android:name="com.picassolive.movietips.tips.ZeeAnmolActivity"
             android:exported="false" />
         <activity
-            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.anyGoodActivity"
+            android:name="com.picassolive.movietips.tips.anyGoodActivity"
             android:exported="false" />
         <activity
-            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.isZeeAnmolActivity"
+            android:name="com.picassolive.movietips.tips.isZeeAnmolActivity"
             android:exported="false" />
         <activity
-            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.howDoActivity"
+            android:name="com.picassolive.movietips.tips.howDoActivity"
             android:exported="false" />
         <activity
-            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.WhyIsActivity"
+            android:name="com.picassolive.movietips.tips.WhyIsActivity"
             android:exported="false" />
         <activity
-            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.HowMuchActivity"
+            android:name="com.picassolive.movietips.tips.HowMuchActivity"
             android:exported="false" />
         <activity
-            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.howCanActivity"
+            android:name="com.picassolive.movietips.tips.howCanActivity"
             android:exported="false" />
         <activity
-            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.piyaAlbelaActivity"
+            android:name="com.picassolive.movietips.tips.piyaAlbelaActivity"
             android:exported="false" />
         <activity
-            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.subscriptionPage"
+            android:name="com.picassolive.movietips.tips.subscriptionPage"
             android:exported="false" />
         <activity
-            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.FourthActivity"
+            android:name="com.picassolive.movietips.tips.FourthActivity"
             android:exported="false" />
         <activity
-            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.ThirdActivity"
+            android:name="com.picassolive.movietips.tips.ThirdActivity"
             android:exported="false" />
         <activity
-            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.MainActivity"
+            android:name="com.picassolive.movietips.tips.MainActivity"
             android:exported="true" />
         <activity
-            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.SplashScreenActivity"
+            android:name="com.picassolive.movietips.tips.SplashScreenActivity"
             android:exported="true"
             android:theme="@style/SplashTheme">
             <intent-filter>
@@ -61,7 +61,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.serialslivetvanmol.zeeanmolhd2022.zeeanmol.HomeActivity"
+            android:name="com.picassolive.movietips.tips.HomeActivity"
             android:exported="false" />
 
         <meta-data

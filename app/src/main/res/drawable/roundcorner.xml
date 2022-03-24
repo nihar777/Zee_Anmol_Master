@@ -11,8 +11,8 @@
         android:angle="45"
 
 
-        android:endColor="#E4BBB9"
+        android:endColor="#FFD100"
 
-        android:centerColor="#E6A8B5"
-        android:startColor="#E185B6" />
+        android:centerColor="#FFD100"
+        android:startColor="#934D00" />
 </shape>
