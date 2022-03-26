@@ -1,4 +1,4 @@
-package com.picassolive.movietips.tips;
+package com.thoptv.tvLiveCricket.tips;
 
 import android.annotation.SuppressLint;
 import android.app.Dialog;
@@ -17,8 +17,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.browser.customtabs.CustomTabsIntent;
 import androidx.cardview.widget.CardView;
 
-import com.picassolive.movietips.tips.Ads.Ad_Constant;
-import com.picassolive.movietips.tips.Ads.AdmobAdsTemplete;
+import com.thoptv.tvLiveCricket.tips.Ads.Ad_Constant;
+import com.thoptv.tvLiveCricket.tips.Ads.AdmobAdsTemplete;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 CustomTabsIntent build = builder.build();
                 build.intent.setPackage("com.android.chrome");
                 build.intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                build.launchUrl(getApplicationContext(), Uri.parse("https://tuhinsapps77.blogspot.com/2022/03/picasso-live-movies-tv-tips.html"));
+                build.launchUrl(getApplicationContext(), Uri.parse("https://tuhinsapps77.blogspot.com/2022/03/thop-tv-live-cricket.html"));
 
 
             }

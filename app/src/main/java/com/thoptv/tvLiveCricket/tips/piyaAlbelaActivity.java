@@ -1,14 +1,14 @@
-package com.picassolive.movietips.tips;
+package com.thoptv.tvLiveCricket.tips;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class anyGoodActivity extends AppCompatActivity {
+public class piyaAlbelaActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_any_good);
+        setContentView(R.layout.activity_piya_albela);
     }
 }

@@ -1,4 +1,4 @@
-package com.picassolive.movietips.tips.Ads;
+package com.thoptv.tvLiveCricket.tips.Ads;
 
 public class Ad_Constant {
     public static boolean flag = false;
@@ -8,5 +8,5 @@ public class Ad_Constant {
     public static String app_ad_open_ads = "";
     public static boolean qureka = false;
 
-    public static  String qureka_url ="http://373.go.qureka.com";
+    public static  String qureka_url ="";
 }

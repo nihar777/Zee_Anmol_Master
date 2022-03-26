@@ -1,4 +1,4 @@
-package com.picassolive.movietips.tips;
+package com.thoptv.tvLiveCricket.tips;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.browser.customtabs.CustomTabsIntent;
@@ -15,13 +15,12 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.picassolive.movietips.tips.Ads.Ad_Constant;
-import com.picassolive.movietips.tips.Ads.AdmobAdsTemplete;
-import com.picassolive.movietips.tips.databinding.ActivityMainBinding;
+import com.thoptv.tvLiveCricket.tips.Ads.Ad_Constant;
+import com.thoptv.tvLiveCricket.tips.Ads.AdmobAdsTemplete;
 
 public class HomeActivity extends AppCompatActivity{
 
-    public static ZeeAnmolProgressView dialogView;
+    public static ProgressView dialogView;
     private static int loader_color = Color.parseColor("#D81B60");
     private ImageView imgBack;
     private LinearLayout btn_all_live_tv_show;
@@ -90,7 +89,7 @@ public class HomeActivity extends AppCompatActivity{
 
 
 
-        dialogView = new ZeeAnmolProgressView(this, loader_color);
+        dialogView = new ProgressView(this, loader_color);
         imgBack.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 HomeActivity.this.onBackPressed();

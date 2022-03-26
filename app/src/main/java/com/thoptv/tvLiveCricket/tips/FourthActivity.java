@@ -1,4 +1,4 @@
-package com.picassolive.movietips.tips;
+package com.thoptv.tvLiveCricket.tips;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
@@ -11,12 +11,12 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.picassolive.movietips.tips.Ads.Ad_Constant;
-import com.picassolive.movietips.tips.Ads.AdmobAdsTemplete;
+import com.thoptv.tvLiveCricket.tips.Ads.Ad_Constant;
+import com.thoptv.tvLiveCricket.tips.Ads.AdmobAdsTemplete;
 
 public class FourthActivity extends AppCompatActivity {
 
-    public static ZeeAnmolProgressView dialogView;
+    public static ProgressView dialogView;
     private static int loader_color = Color.parseColor("#D81B60");
     private ImageView imgBack;
     private LinearLayout HowCan;
@@ -43,7 +43,7 @@ public class FourthActivity extends AppCompatActivity {
         FrameLayout frameLayout = findViewById(R.id.native_add);
         AdmobAdsTemplete.loadNativeAds(this, frameLayout);
 
-        dialogView = new ZeeAnmolProgressView(this, loader_color);
+        dialogView = new ProgressView(this, loader_color);
         ImageView imageView = (ImageView) findViewById(R.id.imgBack);
         this.imgBack = imageView;
         imageView.setOnClickListener(new View.OnClickListener() {
@@ -61,28 +61,28 @@ public class FourthActivity extends AppCompatActivity {
         this.WhichIs = (LinearLayout) findViewById(R.id.WhichIs);
         this.HowCan.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                ZeeAnmolConstant.position = 1;
+                Constant.position = 1;
                 Intent intent = new Intent(getApplicationContext(),subscriptionPage.class);
                 AdmobAdsTemplete.interstitialAds(FourthActivity.this,intent);
             }
         });
         this.HowMuch.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                ZeeAnmolConstant.position = 2;
+                Constant.position = 2;
                 Intent intent = new Intent(getApplicationContext(),subscriptionPage.class);
                 AdmobAdsTemplete.interstitialAds(FourthActivity.this,intent);
             }
         });
         this.why_is.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                ZeeAnmolConstant.position = 3;
+                Constant.position = 3;
                 Intent intent = new Intent(getApplicationContext(),subscriptionPage.class);
                 AdmobAdsTemplete.interstitialAds(FourthActivity.this,intent);
             }
         });
         this.how_do.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                ZeeAnmolConstant.position = 4;
+                Constant.position = 4;
                 Intent intent = new Intent(getApplicationContext(),subscriptionPage.class);
                 AdmobAdsTemplete.interstitialAds(FourthActivity.this,intent);
 
@@ -90,7 +90,7 @@ public class FourthActivity extends AppCompatActivity {
         });
         this.is_ZeeAnmol.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                ZeeAnmolConstant.position = 5;
+                Constant.position = 5;
                 Intent intent = new Intent(getApplicationContext(),subscriptionPage.class);
                 AdmobAdsTemplete.interstitialAds(FourthActivity.this,intent);
 
@@ -98,7 +98,7 @@ public class FourthActivity extends AppCompatActivity {
         });
         this.iSZee5Anygood.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                ZeeAnmolConstant.position = 6;
+                Constant.position = 6;
                 Intent intent = new Intent(getApplicationContext(),subscriptionPage.class);
                 AdmobAdsTemplete.interstitialAds(FourthActivity.this,intent);
 
@@ -106,7 +106,7 @@ public class FourthActivity extends AppCompatActivity {
         });
         this.WhatIs.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                ZeeAnmolConstant.position = 7;
+                Constant.position = 7;
                 Intent intent = new Intent(getApplicationContext(),subscriptionPage.class);
                 AdmobAdsTemplete.interstitialAds(FourthActivity.this,intent);
 
@@ -114,7 +114,7 @@ public class FourthActivity extends AppCompatActivity {
         });
         this.WhichIs.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                ZeeAnmolConstant.position = 8;
+                Constant.position = 8;
                 Intent intent = new Intent(getApplicationContext(),subscriptionPage.class);
                 AdmobAdsTemplete.interstitialAds(FourthActivity.this,intent);
 

@@ -1,4 +1,4 @@
-package com.picassolive.movietips.tips.Ads;
+package com.thoptv.tvLiveCricket.tips.Ads;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -35,7 +35,7 @@ import com.google.android.gms.ads.nativead.MediaView;
 import com.google.android.gms.ads.nativead.NativeAd;
 import com.google.android.gms.ads.nativead.NativeAdOptions;
 import com.google.android.gms.ads.nativead.NativeAdView;
-import com.picassolive.movietips.tips.R;
+import com.thoptv.tvLiveCricket.tips.R;
 
 import java.util.Map;
 

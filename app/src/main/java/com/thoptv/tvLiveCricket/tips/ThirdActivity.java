@@ -1,4 +1,4 @@
-package com.picassolive.movietips.tips;
+package com.thoptv.tvLiveCricket.tips;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,13 +17,13 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.picassolive.movietips.tips.Ads.Ad_Constant;
-import com.picassolive.movietips.tips.Ads.AdmobAdsTemplete;
+import com.thoptv.tvLiveCricket.tips.Ads.Ad_Constant;
+import com.thoptv.tvLiveCricket.tips.Ads.AdmobAdsTemplete;
 
 
 public class ThirdActivity extends AppCompatActivity {
 
-    public static ZeeAnmolProgressView dialogView;
+    public static ProgressView dialogView;
     private static int loader_color = Color.parseColor("#D81B60");
     private ImageView imgBack;
     private LinearLayout btn_guid;
@@ -45,7 +45,7 @@ public class ThirdActivity extends AppCompatActivity {
         FrameLayout frameLayout = findViewById(R.id.native_add);
         AdmobAdsTemplete.loadNativeAds(this, frameLayout);
 
-        dialogView = new ZeeAnmolProgressView(this, loader_color);
+        dialogView = new ProgressView(this, loader_color);
         ImageView imageView = (ImageView) findViewById(R.id.imgBack);
         this.imgBack = imageView;
         imageView.setOnClickListener(new View.OnClickListener() {
@@ -66,7 +66,7 @@ public class ThirdActivity extends AppCompatActivity {
 
         btn_suscription.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                ZeeAnmolConstant.position = 9;
+                Constant.position = 9;
 
                 Intent intent = new Intent(getApplicationContext(),subscriptionPage.class);
                 AdmobAdsTemplete.interstitialAds(ThirdActivity.this,intent);

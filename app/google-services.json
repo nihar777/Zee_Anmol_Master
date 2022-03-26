@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "1008816296905",
-    "project_id": "picassolivemovietvtips",
-    "storage_bucket": "picassolivemovietvtips.appspot.com"
+    "project_number": "887767893885",
+    "project_id": "thop-tv-live-cricket-tv",
+    "storage_bucket": "thop-tv-live-cricket-tv.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1008816296905:android:7df5bd3fb814ac097a8e18",
+        "mobilesdk_app_id": "1:887767893885:android:9acbe313c83501f9dfae14",
         "android_client_info": {
-          "package_name": "com.picassolive.movietips.tips"
+          "package_name": "com.thoptv.tvLiveCricket.tips"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1008816296905-5jmvamnad1qr2jo7jgmttbsass1n3r2v.apps.googleusercontent.com",
+          "client_id": "887767893885-75emfklrl04phv76ckgela30q0620jrf.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDyRo2Rfi86c5bwrxseqSsp2L3r7YEkbiA"
+          "current_key": "AIzaSyDR1KjDn65yZyplxNtSR85nBvuteTstyG8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1008816296905-5jmvamnad1qr2jo7jgmttbsass1n3r2v.apps.googleusercontent.com",
+              "client_id": "887767893885-75emfklrl04phv76ckgela30q0620jrf.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

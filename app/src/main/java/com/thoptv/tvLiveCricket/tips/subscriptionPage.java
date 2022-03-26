@@ -1,4 +1,4 @@
-package com.picassolive.movietips.tips;
+package com.thoptv.tvLiveCricket.tips;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,11 +10,11 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.picassolive.movietips.tips.Ads.AdmobAdsTemplete;
+import com.thoptv.tvLiveCricket.tips.Ads.AdmobAdsTemplete;
 
 
 public class subscriptionPage extends AppCompatActivity {
-    public static ZeeAnmolProgressView dialogView;
+    public static ProgressView dialogView;
     private static int loader_color = Color.parseColor("#D81B60");
     private ImageView imgBack;
     public TextView textdicrip;
@@ -32,7 +32,7 @@ public class subscriptionPage extends AppCompatActivity {
 
 //        AxieGuide_NativeUtil.Mopub_NativAds(this, (FrameLayout) findViewById(R.id.fl_adplaceholder));
 //        AxieGuide_BannerUtil.MopubloadBanner(this, (FrameLayout) findViewById(R.id.banner_adview), (MoPubView) findViewById(R.id.mopubAdview));
-        dialogView = new ZeeAnmolProgressView(this, loader_color);
+        dialogView = new ProgressView(this, loader_color);
         ImageView imageView = (ImageView) findViewById(R.id.imgBack);
         this.imgBack = imageView;
         imageView.setOnClickListener(new View.OnClickListener() {
@@ -42,7 +42,7 @@ public class subscriptionPage extends AppCompatActivity {
         });
         TextView textView = (TextView) findViewById(R.id.textdicrip);
         this.textdicrip = textView;
-        int i = ZeeAnmolConstant.position;
+        int i = Constant.position;
         if (i == 1) {
             textView.setText(getResources().getString(R.string.discrip1));
         } else if (i == 2) {
