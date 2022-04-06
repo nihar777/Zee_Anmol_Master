@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Picasso_Tv_Movie_Cricket_Guide.iml" filepath="$PROJECT_DIR$/.idea/modules/Picasso_Tv_Movie_Cricket_Guide.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Picasso_Tv_Movie_Cricket_Guide.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Picasso_Tv_Movie_Cricket_Guide.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Pika_Show_Cricket_Sports_Guide.iml" filepath="$PROJECT_DIR$/.idea/modules/Pika_Show_Cricket_Sports_Guide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Pika_Show_Cricket_Sports_Guide.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Pika_Show_Cricket_Sports_Guide.app.iml" />
     </modules>
   </component>
 </project>

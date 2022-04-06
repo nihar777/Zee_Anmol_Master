@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    tools:context="com.picasootv.cricket2022.Guide7.HomeActivity">
+    tools:context="com.piksme.pikashows.sports777.HomeActivity">
 
 <!--    <FrameLayout-->
 <!--        android:id="@+id/native_add"-->

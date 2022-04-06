@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "890694683319",
+    "project_id": "pika-show-cricket-sports-40b75",
+    "storage_bucket": "pika-show-cricket-sports-40b75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890694683319:android:891034593aa0d5863a9b32",
+        "android_client_info": {
+          "package_name": "com.piksme.pikashows.sports777"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890694683319-q32d6pkv8dbgucnaakbkmkabq9oug1p1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrvjhoDlYUVdnf8eNW2sP3dvLaCB9lpuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890694683319-q32d6pkv8dbgucnaakbkmkabq9oug1p1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
