@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "35166029309",
+    "project_id": "picasso-tv-movie-cricket-ffe64",
+    "storage_bucket": "picasso-tv-movie-cricket-ffe64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35166029309:android:2e0ff602a2dbc5fa0d0594",
+        "android_client_info": {
+          "package_name": "com.picasootv.cricket2022.Guide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35166029309-1bscvrdehk47s76crn5trkm6a68sli30.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvwsUwYYYzgaruQ5p2jeZVEHuHO4A-kwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35166029309-1bscvrdehk47s76crn5trkm6a68sli30.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
