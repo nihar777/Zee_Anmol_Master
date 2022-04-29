@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private LinearLayout btn_rate;
     private LinearLayout btn_privacy;
     CardView q1,q2,q3,q4,q5,q6,q7,q8,q9;
+    //nihar
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
