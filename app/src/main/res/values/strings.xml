@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Pika Show Cricket Sports Guide</string>
+    <string name="app_name">Lulubox - Lulubox Skin Guide</string>
     <string name="title_activity_home">HomeActivity</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -23,7 +23,7 @@
          One of the largest entertainment networks in the world, the star network targets a very large audience. As it covers content relevant to almost all parts of the globe. From sporting events, to internationally released movies and TV shows. Earlier the Pikashow App was available and accessible to all parts of the world ( despite being exclusively launched in India). However, recently the app is only available in three countries. India America Canada
 
   </string>
-   <string name="ishqSubhanAllah">
+    <string name="ishqSubhanAllah">
        With more producers focusing to put their work on exclusive display, new weekly episodes and much-anticipated content might be lost to the user. Do not worry, Pikashow app got you covered. The application provides an option to add the content to a wish list. This will allow the Pikashow app to notify you whenever the new content is available or to buy a subscription on time. (if you are out of one). The feature also acts as a bookmark for shows that you might be interested in for later viewing.
    </string>
 
@@ -73,7 +73,6 @@
     <string name="icon_content_description">Dialog Icon</string>
     <string name="indiatv">Here is the tricky part. The points collected are only valid if you complete the rounds or you stick around till the end of the match. The tie-ups with other apps allow Hostar app to give away many prizes. The points earned during the match work as an app currency and can be used for micro transactions to buy cash backs and discounts. Needless to say, there is a 1st, 2nd, 3rd prize but the Pikashow app ensures that each participant gets something and comes back to try their luck again. The prizes are only available for live events</string>
     <string name="item_view_role_description">Tab</string>
-
 
 
 </resources>

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
 
-    tools:context="com.piksme.pikashows.sports777.subscriptionPage">
+    tools:context="com.freegetapps.fantacy.guideforlulubox7777.subscriptionPage">
     <RelativeLayout
         android:id="@+id/header"
         android:layout_width="match_parent"

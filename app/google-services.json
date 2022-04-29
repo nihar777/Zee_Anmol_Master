@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "890694683319",
-    "project_id": "pika-show-cricket-sports-40b75",
-    "storage_bucket": "pika-show-cricket-sports-40b75.appspot.com"
+    "project_number": "193606790732",
+    "project_id": "lulubox---lulubox-skin-guide",
+    "storage_bucket": "lulubox---lulubox-skin-guide.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:890694683319:android:891034593aa0d5863a9b32",
+        "mobilesdk_app_id": "1:193606790732:android:fae2c7de563c3954facee9",
         "android_client_info": {
-          "package_name": "com.piksme.pikashows.sports777"
+          "package_name": "freegetapps.fantacy.guideforlulubox7777"
         }
       },
       "oauth_client": [
         {
-          "client_id": "890694683319-q32d6pkv8dbgucnaakbkmkabq9oug1p1.apps.googleusercontent.com",
+          "client_id": "193606790732-bbkv0toer51668c0b1bs4q0u4n2g2q2u.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBrvjhoDlYUVdnf8eNW2sP3dvLaCB9lpuc"
+          "current_key": "AIzaSyANTtYtkgnEN8L5IRhtbfuOkyeBzcxf9p0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "890694683319-q32d6pkv8dbgucnaakbkmkabq9oug1p1.apps.googleusercontent.com",
+              "client_id": "193606790732-bbkv0toer51668c0b1bs4q0u4n2g2q2u.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
