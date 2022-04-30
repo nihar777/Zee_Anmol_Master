@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.freegetapps.fantacy.guideforlulubox7777">
+    package="com.new9appsmarketappsandroidapp.nineapps9appsmarket.apps999">
+
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -15,46 +16,46 @@
         android:supportsRtl="true"
         android:theme="@style/SplashTheme">
         <activity
-            android:name=".qurekaFullScreen"
+            android:name="com.new9appsmarketappsandroidapp.nineapps9appsmarket.apps999.qurekaFullScreen"
             android:exported="false" />
         <activity
-            android:name=".ZeeAnmolActivity"
+            android:name="com.new9appsmarketappsandroidapp.nineapps9appsmarket.apps999.ZeeAnmolActivity"
             android:exported="false" />
         <activity
-            android:name=".anyGoodActivity"
+            android:name="com.new9appsmarketappsandroidapp.nineapps9appsmarket.apps999.anyGoodActivity"
             android:exported="false" />
         <activity
-            android:name=".isZeeAnmolActivity"
+            android:name="com.new9appsmarketappsandroidapp.nineapps9appsmarket.apps999.isZeeAnmolActivity"
             android:exported="false" />
         <activity
-            android:name=".howDoActivity"
+            android:name="com.new9appsmarketappsandroidapp.nineapps9appsmarket.apps999.howDoActivity"
             android:exported="false" />
         <activity
-            android:name=".WhyIsActivity"
+            android:name="com.new9appsmarketappsandroidapp.nineapps9appsmarket.apps999.WhyIsActivity"
             android:exported="false" />
         <activity
-            android:name=".HowMuchActivity"
+            android:name="com.new9appsmarketappsandroidapp.nineapps9appsmarket.apps999.HowMuchActivity"
             android:exported="false" />
         <activity
-            android:name=".howCanActivity"
+            android:name="com.new9appsmarketappsandroidapp.nineapps9appsmarket.apps999.howCanActivity"
             android:exported="false" />
         <activity
-            android:name=".piyaAlbelaActivity"
+            android:name="com.new9appsmarketappsandroidapp.nineapps9appsmarket.apps999.piyaAlbelaActivity"
             android:exported="false" />
         <activity
-            android:name=".subscriptionPage"
+            android:name="com.new9appsmarketappsandroidapp.nineapps9appsmarket.apps999.subscriptionPage"
             android:exported="false" />
         <activity
-            android:name=".FourthActivity"
+            android:name="com.new9appsmarketappsandroidapp.nineapps9appsmarket.apps999.FourthActivity"
             android:exported="false" />
         <activity
-            android:name=".ThirdActivity"
+            android:name="com.new9appsmarketappsandroidapp.nineapps9appsmarket.apps999.ThirdActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.new9appsmarketappsandroidapp.nineapps9appsmarket.apps999.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".SplashScreenActivity"
+            android:name="com.new9appsmarketappsandroidapp.nineapps9appsmarket.apps999.SplashScreenActivity"
             android:exported="true"
             android:theme="@style/SplashTheme">
             <intent-filter>
@@ -64,7 +65,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".HomeActivity"
+            android:name="com.new9appsmarketappsandroidapp.nineapps9appsmarket.apps999.HomeActivity"
             android:exported="false" />
 
         <meta-data

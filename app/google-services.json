@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "193606790732",
-    "project_id": "lulubox---lulubox-skin-guide",
-    "storage_bucket": "lulubox---lulubox-skin-guide.appspot.com"
+    "project_number": "310913030223",
+    "project_id": "guide-for-9app-mobile-ma-ce1dd",
+    "storage_bucket": "guide-for-9app-mobile-ma-ce1dd.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:193606790732:android:fae2c7de563c3954facee9",
+        "mobilesdk_app_id": "1:310913030223:android:4128a3e3027436a660323a",
         "android_client_info": {
-          "package_name": "freegetapps.fantacy.guideforlulubox7777"
+          "package_name": "com.new9appsmarketappsandroidapp.nineapps9appsmarket.apps999"
         }
       },
       "oauth_client": [
         {
-          "client_id": "193606790732-bbkv0toer51668c0b1bs4q0u4n2g2q2u.apps.googleusercontent.com",
+          "client_id": "310913030223-q9dckf3jqsfirca4tl4d62s7bcn6oikh.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyANTtYtkgnEN8L5IRhtbfuOkyeBzcxf9p0"
+          "current_key": "AIzaSyAs7tcJ5cMiDnvWheZZsNjHVjoJYFIYl-Q"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "193606790732-bbkv0toer51668c0b1bs4q0u4n2g2q2u.apps.googleusercontent.com",
+              "client_id": "310913030223-q9dckf3jqsfirca4tl4d62s7bcn6oikh.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lulubox_-_Lulubox_Skin_Guide.iml" filepath="$PROJECT_DIR$/.idea/modules/Lulubox_-_Lulubox_Skin_Guide.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Lulubox_-_Lulubox_Skin_Guide.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Lulubox_-_Lulubox_Skin_Guide.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Guide_for_9app_Mobile_Market.iml" filepath="$PROJECT_DIR$/.idea/modules/Guide_for_9app_Mobile_Market.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Guide_for_9app_Mobile_Market.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Guide_for_9app_Mobile_Market.app.iml" />
     </modules>
   </component>
 </project>
